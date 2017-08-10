@@ -1,0 +1,11 @@
+prefix=/nfs/zfs-student-6/users/mntuli/.brew/Cellar/glew/2.0.0
+exec_prefix=${prefix}
+libdir=/nfs/zfs-student-6/users/mntuli/.brew/Cellar/glew/2.0.0/lib
+includedir=${prefix}/include
+
+Name: glew
+Description: The OpenGL Extension Wrangler library
+Version: 2.0.0
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lGLEW
+Requires: 
