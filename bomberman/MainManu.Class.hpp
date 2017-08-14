@@ -6,6 +6,8 @@
 #include <iostream>
 #include "Texture.hpp"
 #include <vector>
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
 
 
 class MainManu
@@ -13,6 +15,7 @@ class MainManu
     private:
         int _height;
         int _width;
+        int _texcoord;
     public:
         MainManu(void);
         ~MainManu(void);
